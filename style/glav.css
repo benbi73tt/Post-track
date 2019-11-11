@@ -112,16 +112,16 @@ header {
 .reg {
   position: relative;
   float: right;
-  width: 40%;
+  width: 35%;
   margin-right: 5%;
-  height: 400px;
+  height: 500px;
   border: 5px solid silver;
 }
 .reg span h1 {
   text-align: center;
   padding-top: 20px;
 }
-.reg span h2 {
+.reg h2 {
   text-align: left;
   padding-top: 30px;
   padding-left: 50px;
@@ -149,4 +149,53 @@ input[type="text"].field {
 }
 input[type="text"].field:focus {
   border: 2px solid black;
+}
+input[type="password"].field {
+  height: 35px;
+  float: left;
+  border-radius: 3px;
+  border: 2px double silver;
+  padding: 5px;
+  margin-left: 50px;
+  margin-top: 10px;
+  font-size: 1.3em;
+}
+input[type="password"].field:focus {
+  border: 2px solid black;
+}
+#noakk {
+  float: left;
+  margin-left: 50px;
+  font-size: 1.4em;
+  transition: all.6s ease;
+  -moz-transition: all.6s ease;
+  -webkit-transition: all.6s ease;
+}
+#noakk:hover {
+  color: yellow;
+  font-size: 1.8em;
+  transition: all.6s ease;
+  -moz-transition: all.6s ease;
+  -webkit-transition: all.6s ease;
+}
+button {
+  padding: 10px 0;
+  border-width: 0;
+  display: block;
+  width: 120px;
+  margin: 25px auto 0;
+  background: #374441;
+  color: white;
+  font-size: 14px;
+  outline: none;
+  text-transform: uppercase;
+  transition: all.6s ease;
+  -moz-transition: all.6s ease;
+  -webkit-transition: all.6s ease;
+}
+button:hover {
+  background: #4df0ca;
+  transition: all.6s ease;
+  -moz-transition: all.6s ease;
+  -webkit-transition: all.6s ease;
 }
