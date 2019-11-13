@@ -13,7 +13,7 @@
       content="Post track посылки отправление отслеживание индексы упаковка консультация"
     />
 
-    <link rel="stylesheet" type="text/css" href="style/company.css" />
+    <link rel="stylesheet" type="text/css" href="style/tracking.css" />
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <title>Post track</title>
     <link href="" rel="shortcut icon" type="image/x-icon" />
@@ -34,9 +34,9 @@
         <div class="logo">
           <div id="emblem">
             <a href="Tracking.html">
-              <img src="/photo/STJIE_pwtZY.jpg" /><span id="menuhrefsGLav"> </span>
-                Post track
-              </span>
+              <img src="/photo/STJIE_pwtZY.jpg" /><span id="menuhrefsGLav"
+                >Post track</span
+              >
             </a>
           </div>
           <div id="menuhrefs">
@@ -47,22 +47,28 @@
           </div>
         </div>
       </header>
-      <artcicle>
-        <div class="AboutUs">
-          <div class="descriptions"><!--Только надпись и описание О нас-->
-            <br> <span id="WE">О нас</span>
-            <span id="desrp">Наша компания бла-бла..........</span>
-            <hr>
-            <div class="clear"></div>
-            <hr>
-            <div class="clear"></div>  <hr>
-            <div class="clear"></div> <hr>
-            <div class="clear"></div>  <hr>
-            <div class="clear"></div>  <hr> 
+      <article>
+        <div class="trackmap"></div>
+        <!--В этом блоке будет отслеживание
+          в виде таблицы, где находится посылка-->
+        <div class="tracktabl">
+          <form>
+            <span id="cod">Введите код посылки:</span><br />
+            <input id="codtrack" type="text" placeholder="R53853M22" /><br />
+            <button>Отследить</button>
+          </form>
+          <div class="timer">
+            <span id="arrives">Ваш заказ прибудет через:</span>
+            <br />
+            <!--Здесь черз сколько прибудет заказ!-->
+            <span id="arrives">Находится сейчас:</span>
+            <span id="arrives1"> Отправлен из:</span>
+            <div class="Additionally">
+              <span id="Addit"> Дополнительная информация</span>
+            </div>
           </div>
-          <div class></div>
         </div>
-      </artcicle>
+      </article>
     </div>
   </body>
 </html>
