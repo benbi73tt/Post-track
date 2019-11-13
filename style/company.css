@@ -118,3 +118,85 @@ header {
   -moz-transition: all.6s ease;
   -webkit-transition: all.6s ease;
 }
+/*Карта отслеживания*/
+.trackmap {
+  background: url(/photo/greeting-card-2049338_640.jpg) no-repeat;
+  background-size: 100%;
+  width: 39%;
+  margin: 4.5%;
+  height: 500px;
+  float: left;
+  border: 1px solid silver;
+}
+.tracktabl {
+  background: linear-gradient(white, yellow, yellow, white) no-repeat;
+  float: right;
+  height: 500px;
+  width: 39%;
+  margin: 4.5%;
+  border: 1px solid silver;
+}
+#cod {
+  float: left;
+  margin: 20px;
+  margin-top: 30px;
+  margin-left: 100px;
+  font-size: 1.9em;
+}
+#codtrack {
+  width: 80%;
+  margin: 20px;
+  margin-left: 50px;
+  font-size: 1.2em;
+  height: 40px;
+  float: left;
+}
+input[type="text"]#codtrack:focus {
+  border: 2px solid black;
+}
+button {
+  padding: 10px 0;
+  border-width: 0;
+  display: block;
+  width: 120px;
+  margin: 25px auto 0;
+  margin-left: 300px;
+  background: #374441;
+  color: white;
+  font-size: 14px;
+  outline: none;
+  text-transform: uppercase;
+  transition: all.6s ease;
+  -moz-transition: all.6s ease;
+  -webkit-transition: all.6s ease;
+}
+button:hover {
+  background: #4df0ca;
+  transition: all.6s ease;
+  -moz-transition: all.6s ease;
+  -webkit-transition: all.6s ease;
+}
+#arrives {
+  float: left;
+  margin: 20px;
+  margin-top: 30px;
+  margin-left: 80px;
+  font-size: 1.9em;
+}
+#arrives1 {
+  float: left;
+  margin: 20px;
+  margin-top: 30px;
+  margin-left: 50px;
+  font-size: 1.3em;
+}
+.Additionally {
+  margin-top: 200px;
+}
+#Addit {
+  float: right;
+  margin: 10px;
+  margin-top: 30px;
+  margin-left: 50px;
+  font-size: 1.3em;
+}
