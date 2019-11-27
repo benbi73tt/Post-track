@@ -27,42 +27,44 @@
         <div class="YouLocate">Ваш город:</div>
         <div class="clear"></div>
         <div class="clear"></div>
-        <br/>
+        <br />
         <a href="Tracking.html"><div class="logo"></div></a>
-          <div id="menuhrefs">
-            <a href="Company.html">О компании</a>
-            <a href="PersonalAccount.html">Личный кабинет</a>
-            <a href="Departamens.html">Отделения</a>
-            <a href="Support.html">Служба поддержки</a>
-          </div>
+        <div id="menuhrefs">
+          <a href="Company.html">О компании</a>
+          <a href="PersonalAccount.html">Личный кабинет</a>
+          <a href="Departamens.html">Отделения</a>
+          <a href="Support.html">Служба поддержки</a>
+        </div>
       </header>
       <div class="pict"></div>
       <div class="reg">
-        <span
-          ><h1>Войти в личный кабинет</h1>
-          <h2>
-            Войти с помощью:
-            <a href="">
+        <span>
+          <h1>Войти в личный кабинет</h1>
+
+          <br />
+          <h3>Электронная почта</h3>
+        </span>
+        <form method="POST" action="form.php">
+          <input type="mail" class="field" placeholder="Логин" />
+          <div class="clear"></div>
+          <br />
+          <span><h3>Ваш пароль</h3></span>
+          <input type="password" class="field" placeholder="Пароль" />
+          <div class="clear"></div>
+          <button type="submit">Войти</button>
+        </form>
+        <br />
+        <br />
+        <div id="shift">
+          <a id="noakk" href="register.html">Зарегистрируйтесь!</a>
+        </div><div id="shift2">
+        <a href="">
               <img title="С помощью Вконтакте" src="/photo/VK.png" />
             </a>
             <a href="">
               <img title="С помощью Facebook" src="/photo/facebook48.png" />
             </a>
-          </h2>
-          <br>
-          <h3>Введите логин или Эл.почту</h3>
-        </span>
-        <form method="POST" action="form.php">
-        <div class="log">
-        <input type="text" class="field" placeholder="Логин" />
-        <div class="clear"></div>
-        <h2>Ваш пароль</h2>
-        <input type="password" class="field" placeholder="Пароль" /><div class="clear"></div>
-        <button type="submit">Отправить</button> 
-    </form>
-      <br> <br>
-      <span id="noakk">Нет аккаунта? </span><a id="noakk" href="register.html">Зарегистрируйся!</a>
-    </div>
+          </div>
     </div>
   </body>
 </html>
