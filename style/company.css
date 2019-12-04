@@ -45,17 +45,7 @@ header {
   color: black;
   font-size: 1.1em;
 }
-.partners {
-  height: 30px;
-  width: 10%;
-  border: 2px solid rgb(65, 58, 58);
-  border-radius: 4px;
-  float: left;
-  margin: 1%;
-  text-align: center;
-  padding: 10px;
-  font-size: 1.4em;
-}
+
 .YouLocate {
   height: 30px;
   width: 25%;

@@ -24,7 +24,7 @@
                 ymaps.ready(function(){
                     var geolocation = ymaps.geolocation;
                     $('#cou1').html('Ваша страна: '+geolocation.country);
-                    $('#tow1').html('Ваш город: '+geolocation.city);
+                    $('#tow1').html('   '+ geolocation.city);
                     $('#reg1').html('Ваш регион: '+geolocation.region);
                 });
             });
@@ -33,21 +33,15 @@
   <body>
     <div class="container">
       <header>
-        <div class="partners">
-          <a href="" tytle="Наши Партнеры">Партнеры</a>
-        </div>
-        <div class="YouLocate" id="tow1">Ваш город:</div>
-        <div class="clear"></div>
-        <div class="clear"></div>
-        <br />
         <a href="Tracking.html"><div class="logo"></div></a>
         <div id="menuhrefs">
-          <a href="Company.html">О компании</a>
-          <a href="PersonalAccount.html">Личный кабинет</a>
+          <a href="Personalcab.html">Личный кабинет</a>
           <a href="Departamens.html">Отделения</a>
           <a href="Support.html">Служба поддержки</a>
         </div>
+        <div class="YouLocate"><img src="photo/locate32.png"><span id="tow1"></span> </div>
       </header>
+      <maik>
       <div class="pict"></div>
       <div class="reg">
         <span>
@@ -77,6 +71,7 @@
             </a>
           </div>
     </div>
+  </maik>
   </body>
 </html>
 <!--<a href="https://vk.com/public188361120">
