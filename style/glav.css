@@ -134,10 +134,10 @@ header {
 .pict {
   background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Nopenis.svg/810px-Nopenis.svg.png)
     no-repeat;
-  background-size: 100%;
-  width: 40%;
+  background-size: 60%;
+  width: 60%;
   height: 800px;
-  margin-top: 0px;
+  margin-top: 50px;
   margin-left: 10px;
   z-index: inherit;
   position: relative;
@@ -151,6 +151,7 @@ header {
   position: relative;
   float: right;
   width: 23%;
+  margin-top: 50px;
   margin-right: 5%;
   height: 420px;
   border-radius: 50px;
@@ -261,4 +262,38 @@ div#shift2 {
 }
 div img {
   padding-right: 0px;
+}
+.comment {
+  margin-top: -200px;
+  float: left;
+  width: 40%;
+  margin-left: 100px;
+}
+footer {
+  color: rgba(255, 255, 255, 0.616);
+  border-top: 2px solid silver;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.623);
+  min-height: 50px;
+}
+.right {
+  float: left;
+  font-size: 0.8em;
+}
+.inright {
+  float: right;
+}
+#page-wrap::after {
+  content: "";
+  display: block;
+}
+footer img {
+  float: right;
+}
+footer,
+#page-wrap::after {
+  height: 70px;
+}
+#page-wrap {
+  min-height: 94%;
 }
