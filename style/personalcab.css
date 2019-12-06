@@ -149,3 +149,9 @@ header {
   box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.2),
     inset 0 2px 5px rgba(0, 0, 0, 0.2), 0 1px rgba(255, 255, 255, 0.2);
 }
+.cab {
+  height: 500px;
+  width: 86%;
+  margin: 7%;
+  border: 1px silver solid;
+}
