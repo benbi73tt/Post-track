@@ -150,8 +150,52 @@ header {
     inset 0 2px 5px rgba(0, 0, 0, 0.2), 0 1px rgba(255, 255, 255, 0.2);
 }
 .cab {
-  height: 500px;
+  height: 550px;
   width: 86%;
   margin: 7%;
   border: 1px silver solid;
+}
+hr {
+  width: 90%;
+  display: block;
+  margin-left: 50px;
+  margin-top: 0px;
+  border-top: 10px silver solid;
+}
+form {
+  margin-left: 50px;
+}
+input {
+  float: left;
+  padding: 10px 0;
+  border-width: 0;
+  width: 15%;
+  margin: 20px;
+  background: #374441;
+  color: white;
+  font-size: 14px;
+  outline: none;
+  transition: all.6s ease;
+  -moz-transition: all.6s ease;
+  -webkit-transition: all.6s ease;
+  border-radius: 50px;
+}
+input:hover {
+  background: #4df0ca;
+  transition: all.6s ease;
+  -moz-transition: all.6s ease;
+  -webkit-transition: all.6s ease;
+}
+.tracks {
+  width: 30%;
+  height: 400px;
+  border: 1px solid silver;
+  margin: 10px;
+}
+#div1 {
+  display: flex;
+  width: 90%;
+  height: 200px;
+  flex-direction: column;
+  border: 1px solid silver;
 }

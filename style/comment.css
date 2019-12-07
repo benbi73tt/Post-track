@@ -1,7 +1,31 @@
-@charset "utf-8";
 * {
   margin: 0;
   padding: 0;
   outline: none;
   overflow-x: hidden;
+}
+.container {
+  background: url();
+  background-size: 100%;
+  max-width: 1350px;
+  min-width: 1350px;
+  margin: 0px auto;
+  text-align: left;
+  border: 0px solid silver;
+}
+a {
+  text-decoration: none;
+  transition: all.3s ease;
+  -moz-transition: all.3s ease;
+  -webkit-transition: all.3s ease;
+  color: rgb(53, 46, 46);
+}
+a:hover {
+  text-decoration: none;
+  transition: all.3s ease;
+  -moz-transition: all.3s ease;
+  -webkit-transition: all.3s ease;
+}
+.clear {
+  clear: both;
 }
