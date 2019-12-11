@@ -19,19 +19,24 @@
 <body>
 
   <head>
-    <script type="text/javascript">
-      document.addEventListener('DOMContentLoaded', () => {
-        const inp = document.getElementById('inp1'),
-          div = document.getElementById('div1'),
-          btn = document.getElementById('btn1');
-        btn.addEventListener('click', function () {
-          if (inp.value.length)   // добавляем текст только если его длина !== 0
-            div.innerHTML += inp.value + '<br>';
-        });
-      }); </script>
-    <button id="btn1">Click me</button>
-    <input type="text" id="inp1">
-    <div id="div1"></div>
+
+    <div class="tracktabl">
+      <form method="post" action="form.php">
+        <span id="cod">
+          <p>Код посылки:</p>
+        </span>
+        <input id="codtrack" type="text" placeholder="R53853M22" /><br />
+        <br />
+      </form>
+      <button>Отследить</button>
+      <div class="timer">
+        <span id="arrives">Заказ прибудет через:</span>
+        <br />
+        <!--Здесь черз сколько прибудет заказ!-->
+        <span id="arrives">Находится сейчас:</span><br />
+        <span id="arrives1"> Отправлен из:</span>
+      </div>
+    </div>
   </head>
 </body>
 
