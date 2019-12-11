@@ -31,7 +31,7 @@ a:hover {
   clear: both;
 }
 header {
-  background: #74fbf0ad;
+  background: #0f4c81;
   border-bottom: 5px silver solid;
   border-bottom-left-radius: 100px;
   border-bottom-right-radius: 100px;
@@ -131,18 +131,21 @@ header {
     inset 0 2px 5px rgba(0, 0, 0, 0.2), 0 1px rgba(255, 255, 255, 0.2);
 }
 /*шапка завершена, далее регистрация и картинка*/
-.pict {
-  background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Nopenis.svg/810px-Nopenis.svg.png)
-    no-repeat;
+.aboutus {
+  background: #0f4c81;
   background-size: 60%;
   width: 60%;
-  height: 800px;
+  height: 420px;
   margin-top: 50px;
-  margin-left: 10px;
+  margin-left: 5%;
   z-index: inherit;
   position: relative;
   float: left;
+  border-radius: 50px;
   z-index: 1;
+}
+.aboutus p {
+  margin: 20px;
 }
 .reg {
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 2px rgba(0, 0, 0, 0.2),
@@ -257,16 +260,19 @@ div#shift {
 div#shift2 {
   position: relative;
   float: right;
-  margin-top: -25px;
-  padding-right: 7%;
+  margin-top: -55px;
+  padding-right: -5%;
+  margin-left: 40px;
 }
 div img {
   padding-right: 0px;
+  width: 30%;
+  padding-left: 5px;
 }
 .comment {
-  margin-top: -200px;
+  margin-top: 40px;
   float: left;
-  width: 40%;
+  width: 35%;
   margin-left: 100px;
 }
 footer {
