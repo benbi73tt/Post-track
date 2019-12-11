@@ -1,40 +1,39 @@
 <!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <meta http-equiv="content-type" content="text/html" ; charset="utf-8" />
-    <meta
-      name="description"
-      content="Post track занимается отслеживанием и отправлением посылок, здесь вы можете узнать как осуществить отправку, что для этого нужно, работу отделений и также проконсультироваться со специалистами.
-Отслеживание посылок. Быстрое отправление. Условия отправления."
-    />
-    <meta
-      name="keywords"
-      content="Post track посылки отправление отслеживание индексы упаковка консультация"
-    />
 
-    <link rel="stylesheet" type="text/css" href="style/glav.css" />
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-    <title>Post track</title>
-    <link href="/photo/Logo-Pointed1.png" rel="shortcut icon" type="image/x-icon" />
-    <script src="http://code.jquery.com/jquery-1.10.2.min.js" type="text/javascript"></script>
-<script src="https://api-maps.yandex.ru/2.0/?load=package.full&lang=ru-RU" type="text/javascript"></script>
-<script type="text/javascript">
-        $(document).ready(function(){
-                ymaps.ready(function(){
-                    var geolocation = ymaps.geolocation;
-                    $('#cou1').html('Ваша страна: '+geolocation.country);
-                    $('#tow1').html('   '+ geolocation.city);
-                    $('#reg1').html('Ваш регион: '+geolocation.region);
-                });
-            });
-</script>
-  </head>
-  <body>
-    <div class="container">
-        <div id="page-wrap">
+<head>
+  <meta http-equiv="content-type" content="text/html" ; charset="utf-8" />
+  <meta name="description" content="Post track занимается отслеживанием и отправлением посылок, здесь вы можете узнать как осуществить отправку, что для этого нужно, работу отделений и также проконсультироваться со специалистами.
+Отслеживание посылок. Быстрое отправление. Условия отправления." />
+  <meta name="keywords" content="Post track посылки отправление отслеживание индексы упаковка консультация" />
+
+  <link rel="stylesheet" type="text/css" href="style/glav.css" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+  <title>Post track</title>
+  <link href="/photo/Logo-Pointed1.png" rel="shortcut icon" type="image/x-icon" />
+  <script src="http://code.jquery.com/jquery-1.10.2.min.js" type="text/javascript"></script>
+  <script src="https://api-maps.yandex.ru/2.0/?load=package.full&lang=ru-RU" type="text/javascript"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      ymaps.ready(function () {
+        var geolocation = ymaps.geolocation;
+        $('#cou1').html('Ваша страна: ' + geolocation.country);
+        $('#tow1').html('   ' + geolocation.city);
+        $('#reg1').html('Ваш регион: ' + geolocation.region);
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <div class="container">
+    <a href="Company.html">О компаниии</a>
+    <div id="page-wrap">
       <header>
-        <a href="Tracking.html"><div class="logo"></div></a>
+        <a href="Tracking.html">
+          <div class="logo"></div>
+        </a>
         <div id="menuhrefs">
           <a href="Personalcab.html">Личный кабинет</a>
           <a href="Departamens.html">Отделения</a>
@@ -43,38 +42,41 @@
         <div class="YouLocate"><img src="photo/locate32.png"><span id="tow1"></span> </div>
       </header>
       <maik>
-      <div class="pict"></div>
-      <div class="reg">
-        <span>
-          <h1>Личный кабинет</h1>
-          <form method="POST" action="form.php">
-          <br />
-            <h3>Электронная почта</h3>
-        </span>
+        <div class="pict"></div>
+        <div class="reg">
+          <span>
+            <h1>Личный кабинет</h1>
+            <form method="POST" action="form.php">
+              <br />
+              <h3>Электронная почта</h3>
+          </span>
           <input type="mail" class="field" placeholder="Логин" />
           <div class="clear"></div>
           <br />
-          <span><h3>Пароль</h3></span>
+          <span>
+            <h3>Пароль</h3>
+          </span>
           <input type="password" class="field" placeholder="Пароль" />
           <div class="clear"></div>
           <button type="submit">Войти</button>
-        </form>
-        <br />
-        <br />
-        <div id="shift">
-          <a id="noakk" href="register.html">Регистрация</a>
-        </div><div id="shift2">
-        <a href="">
+          </form>
+          <br />
+          <br />
+          <div id="shift">
+            <a id="noakk" href="register.html">Регистрация</a>
+          </div>
+          <div id="shift2">
+            <a href="">
               <img title="С помощью Вконтакте" src="/photo/VK.png" />
             </a>
             <a href="">
               <img title="С помощью Facebook" src="/photo/facebook48.png" />
             </a>
           </div>
-    </div>
-  </maik>
-  <div class="comment">
-      <form name="comment" action="comment.php" method="post">
+        </div>
+      </maik>
+      <div class="comment">
+        <form name="comment" action="comment.php" method="post">
           <p>
             <label>Имя:</label>
             <input type="text" name="name" />
@@ -89,33 +91,24 @@
             <input type="submit" value="Отправить" />
           </p>
         </form>
-  </div>
-        </div>  
-  <footer>
+      </div>
+    </div>
+    <footer>
       <span class="right">
         Все права защищены &copy; 2019
       </span>
       <span class="inright">
         <a href="https://vk.com/public188361120">
-          <img
-          width="50" 
-            src="/photo/inst.png"
-            alt="Группа Inst"
-            title="Группа Inst"
-          />
+          <img width="50" src="/photo/inst.png" alt="Группа Inst" title="Группа Inst" />
           <a href="https://vk.com/public188361120">
-              <img
-              width="40"
-                src="/photo/VK.png"
-                alt="Группа Вконтакте"
-                title="Группа Вконтакте"
-              />
-        </a>
-        <br />Соц.кнопки
+            <img width="40" src="/photo/VK.png" alt="Группа Вконтакте" title="Группа Вконтакте" />
+          </a>
+          <br />Соц.кнопки
       </span>
     </footer>
   </div>
-  </body>
+</body>
+
 </html>
 <!--<a href="https://vk.com/public188361120">
   <img title="Мы Вконтакте" src="/photo/VK.png" />

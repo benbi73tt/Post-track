@@ -30,40 +30,62 @@ a:hover {
 .clear {
   clear: both;
 }
-header {
-  background-size: 100%;
-  height: 100%;
-  background: no-repeat;
-}
 .Glavn {
-  margin-left: 40%;
-  margin-right: 40%;
   text-align: center;
   width: 20%;
   height: 22px;
-  background: rgb(182, 182, 182);
+  margin-left: 40%;
   color: black;
   font-size: 1.1em;
+  transition: all.6s ease;
+  -moz-transition: all.6s ease;
+  -webkit-transition: all.6s ease;
+}
+.Glavn:hover {
+  background: #3ce2ff;
+  border-radius: 50px;
+  transition: all.6s ease;
+  -moz-transition: all.6s ease;
+  -webkit-transition: all.6s ease;
+}
+header {
+  background: #74fbf0ad;
+  border-bottom: 5px silver solid;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  background-size: 100%;
+  height: 220px;
 }
 
 .YouLocate {
   height: 30px;
-  width: 25%;
+  width: 10%;
   border: 2px solid rgb(65, 58, 58);
   border-radius: 4px;
   float: right;
   margin: 1%;
+  margin-top: -65px;
   text-align: left;
   padding: 10px;
   font-size: 1.4em;
+  margin-right: 200px;
 }
+#tow1 {
+  margin-top: 0px;
+  float: right;
+}
+.YouLocate img {
+  width: 19%;
+  float: left;
+}
+
 .logo {
   background: url(/photo/Logo.png) no-repeat;
   background-size: 100%;
-  width: 19%;
-  height: 315px;
-  margin-top: -20px;
-  margin-left: 50px;
+  width: 10%;
+  height: 180px;
+  margin-top: 10px;
+  margin-left: 80px;
   position: relative;
   float: left;
   z-index: 1;
@@ -76,10 +98,10 @@ header {
   background: url(/photo/Logo-Pointed.png) no-repeat;
   display: block;
   background-size: 100%;
-  width: 19%;
-  height: 325px;
-  margin-top: -30px;
-  margin-left: 50px;
+  width: 10%;
+  height: 180px;
+  margin-top: -5px;
+  margin-left: 80px;
   position: relative;
   float: left;
   z-index: 1;
@@ -90,14 +112,13 @@ header {
 }
 #menuhrefs {
   width: 70%;
-  margin-top: 7%;
+  margin-top: 3.2%;
   font-size: 1.4em;
   padding-top: 50px;
   margin-right: 0%;
   margin-left: -15%;
-  height: 100px;
+  height: 50px;
   z-index: 2;
-  border: 1px solid silver;
 }
 #menuhrefs a {
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 2px rgba(0, 0, 0, 0.2),
@@ -106,17 +127,21 @@ header {
   width: 100%;
   height: 100%;
   margin: 3.4%;
-  padding: 11px;
+  padding: 14px;
   border: 1px solid #74fbef;
   border-radius: 30px;
   color: rgba(0, 0, 0, 0.664);
 }
 #menuhrefs a:hover {
   box-shadow: inset 0 0 12px white;
+  background: #74fbef;
   width: 100%;
   height: 100%;
   margin: 3.4%;
-  padding: 15px;
+  padding: 14px;
+  border: 1px solid #74fbef;
+  border-radius: 30px;
+  color: rgba(0, 0, 0, 0.664);
 }
 #menuhrefs a:active {
   background: #d0d3d6;

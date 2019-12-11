@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="content-type" content="text/html" ; charset="utf-8" />
+    <meta name="description" content="Post track занимается отслеживанием и отправлением посылок, здесь вы можете узнать как осуществить отправку, что для этого нужно, работу отделений и также проконсультироваться со специалистами.
+Отслеживание посылок. Быстрое отправление. Условия отправления." />
+    <meta name="keywords" content="Post track посылки отправление отслеживание индексы упаковка консультация" />
+
+    <link rel="stylesheet" type="text/css" href="style/register.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <title>Post track</title>
+    <link href="/photo/Logo-Pointed1.png" rel="shortcut icon" type="image/x-icon" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="Glavn">
+            <a id="Glavn" href="Glav.html">Вернуться на главную</a>
+        </div>
+        <div class="reg">
+            <div class="form-wrap">
+                <div class="profile">
+                    <img src="/photo/Logo.png">
+                    <h1>Регистрация</h1>
+                </div>
+                <form method="post" action="form.php">
+                    <div>
+                        <label for="name">Имя</label>
+                        <input type="text" name="name" required>
+                    </div>
+                    <div class="radio">
+                        <span>Пол</span><br>
+                        <label>
+                            <input type="radio" name="sex" value="мужской">мужской
+                            <div class="radio-control male"></div>
+                        </label>
+                        <label>
+                            <input type="radio" name="sex" value="женский">женский
+                            <div class="radio-control female"></div>
+                        </label>
+                    </div>
+                    <div>
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" required>
+                    </div><br>
+                    <div>
+                        <label for="country">Страна</label>
+                        <select name="country">
+                            <option>Выберите страну проживания</option>
+                            <option value="Россия">Россия</option>
+                            <option value="Украина">Украина</option>
+                            <option value="Беларусь">Беларусь</option>
+                        </select>
+                        <div class="select-arrow"></div>
+                    </div><br>
+                    <div class="pnl">
+                        <label for="city">Город</label>
+                        <select name="city">
+                            <option>Выберите город проживания</option>
+                            <option value="Екатеренбург">Екатеренбург</option>
+                            <option value="Казань">Казань</option>
+                            <option value="Москва">Москва</option>
+                            <option value="Нижний Новгород">Нижний Новгород</option>
+                            <option value="Самара">Самара</option>
+                            <option value="Сочи">Сочи</option>
+                            <option value="Ульяновск">Ульяновск</option>
+                            <option value="Самара">Самара</option>
+                            <option value="Ярославль">Ярославь</option>
+                        </select>
+                        <div class="select-arrow"></div>
+                    </div><br>
+                    <button type="submit">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
