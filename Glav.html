@@ -3,110 +3,104 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-  <meta http-equiv="content-type" content="text/html" ; charset="utf-8" />
-  <meta name="description" content="Post track занимается отслеживанием и отправлением посылок, здесь вы можете узнать как осуществить отправку, что для этого нужно, работу отделений и также проконсультироваться со специалистами.
+    <meta http-equiv="content-type" content="text/html" ; charset="utf-8" />
+    <meta name="description" content="Post track занимается отслеживанием и отправлением посылок, здесь вы можете узнать как осуществить отправку, что для этого нужно, работу отделений и также проконсультироваться со специалистами.
 Отслеживание посылок. Быстрое отправление. Условия отправления." />
-  <meta name="keywords" content="Post track посылки отправление отслеживание индексы упаковка консультация" />
+    <meta name="keywords" content="Post track посылки отправление отслеживание индексы упаковка консультация" />
 
-  <link rel="stylesheet" type="text/css" href="style/glav.css" />
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-  <title>Post track</title>
-  <link href="/photo/Logo-Pointed1.png" rel="shortcut icon" type="image/x-icon" />
-  <script src="http://code.jquery.com/jquery-1.10.2.min.js" type="text/javascript"></script>
-  <script src="https://api-maps.yandex.ru/2.0/?load=package.full&lang=ru-RU" type="text/javascript"></script>
-  <script type="text/javascript">
-    $(document).ready(function () {
-      ymaps.ready(function () {
-        var geolocation = ymaps.geolocation;
-        $('#cou1').html('Ваша страна: ' + geolocation.country);
-        $('#tow1').html('   ' + geolocation.city);
-        $('#reg1').html('Ваш регион: ' + geolocation.region);
-      });
-    });
-  </script>
+    <link rel="stylesheet" type="text/css" href="style/glav.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <title>Post track</title>
+    <link href="/photo/Logo-Pointed1.png" rel="shortcut icon" type="image/x-icon" />
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js" type="text/javascript"></script>
+    <script src="https://api-maps.yandex.ru/2.0/?load=package.full&lang=ru-RU" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            ymaps.ready(function() {
+                var geolocation = ymaps.geolocation;
+                $('#cou1').html('Ваша страна: ' + geolocation.country);
+                $('#tow1').html('   ' + geolocation.city);
+                $('#reg1').html('Ваш регион: ' + geolocation.region);
+            });
+        });
+    </script>
 </head>
 
 <body>
-  <div class="container">
-    <div id="page-wrap">
-      <header>
-        <a href="Tracking.html">
-          <div class="logo"></div>
-        </a>
-        <div id="menuhrefs">
-          <a href="Personalcab.html">Личный кабинет</a>
-          <a href="Departamens.html">Отделения</a>
-          <a href="Support.html">Служба поддержки</a>
-        </div>
-        <div class="YouLocate"><img src="photo/locate32.png"><span id="tow1"></span> </div>
-      </header>
-      <maik>
-        <div class="aboutus">
-          <p id="welcome">Добро пожаловать! </p>
-          <p> "Post Track" - это некоммерческий проект студентов Ульяновского Государственного Университета. С помощью
-            нашего сайта, вы сможете узнать где в данный момент находится Ваше почтовое отправление. Кроме того, в
-            истории
-            сохраняется не только последнее, но и все остальные почтовые отправления, если вы уже отслеживали их с
-            помощью
-            Post Track.
+    <div class="container">
+        <div id="page-wrap">
+            <header>
+                <a href="Tracking.html">
+                    <div class="logo"></div>
+                </a>
+                <div id="menuhrefs">
+                    <a href="Personalcab.html">Личный кабинет</a>
+                    <a href="Departamens.html">Отделения</a>
+                </div>
+                <div class="YouLocate"><img src="photo/locate32.png"><span id="tow1"></span> </div>
+            </header>
+            <maik>
+                <div class="aboutus">
+                    <p id="welcome">Добро пожаловать! </p>
+                    <p> "Post Track" - это некоммерческий проект студентов Ульяновского Государственного Университета. С помощью нашего сайта, вы сможете узнать где в данный момент находится Ваше почтовое отправление. Кроме того, в истории сохраняется не
+                        только последнее, но и все остальные почтовые отправления, если вы уже отслеживали их с помощью Post Track.
 
-            <br><br>Чтобы отследить посылку, перейдите во вкладку "Отследить заказ".
-            <br> <br>Вы можете создать личный кабинет и войти в него. Там будет сохранятся информация о Ваших
-            отправлениях.
-            <br><br>Так же, внизу вы можете оставить свой комментарий или отзыв по поводу работы сервиса.
-            <br><br>Приятного пользования!</p>
-        </div>
-        <div class="reg">
-          <span>
+                        <br><br>Чтобы отследить посылку, перейдите во вкладку "Отследить заказ".
+                        <br> <br>Вы можете создать личный кабинет и войти в него. Там будет сохранятся информация о Ваших отправлениях.
+                        <br><br>Так же, внизу вы можете оставить свой комментарий или отзыв по поводу работы сервиса.
+                        <br><br>Приятного пользования!</p>
+                </div>
+                <div class="reg">
+                    <span>
             <h1>Личный кабинет</h1>
             <form method="POST" action="form.php">
               <br />
               <h3>Электронная почта</h3>
           </span>
-          <input type="mail" class="field" placeholder="Логин" />
-          <div class="clear"></div>
-          <br />
-          <span>
+                    <input type="mail" class="field" placeholder="Логин" />
+                    <div class="clear"></div>
+                    <br />
+                    <span>
             <h3>Пароль</h3>
           </span>
-          <input type="password" class="field" placeholder="Пароль" />
-          <div class="clear"></div>
-          <button type="submit">Войти</button>
-          </form>
-          <br />
-          <br />
-          <div id="shift">
-            <a id="noakk" href="register.html">Регистрация</a>
-          </div>
-          <div id="shift2">
-            <a href="">
-              <img title="С помощью Вконтакте" src="/photo/vk.png" />
-            </a>
-            <a href="">
-              <img title="С помощью Facebook" src="/photo/facebook.png" />
-            </a>
-          </div>
+                    <input type="password" class="field" placeholder="Пароль" />
+                    <div class="clear"></div>
+                    <button type="submit">Войти</button>
+                    </form>
+                    <br />
+                    <br />
+                    <div id="shift">
+                        <a id="noakk" href="register.html">Регистрация</a>
+                    </div>
+                    <div id="shift2">
+                        <a href="">
+                            <img title="С помощью Вконтакте" src="/photo/vk.png" />
+                        </a>
+                        <a href="">
+                            <img title="С помощью Facebook" src="/photo/facebook.png" />
+                        </a>
+                    </div>
+                </div>
+            </maik>
+            <div class="comment">
+                <form name="comment" action="comment.php" method="post">
+                    <p>
+                        <label>Комментарий:</label>
+                        <br />
+                        <textarea name="text_comment" cols="57" rows="10"></textarea>
+                    </p>
+                    <p>
+                        <input type="hidden" name="page_id" value="150" />
+                        <input type="submit" value="Отправить" />
+                    </p>
+                </form>
+            </div>
         </div>
-      </maik>
-      <div class="comment">
-        <form name="comment" action="comment.php" method="post">
-          <p>
-            <label>Комментарий:</label>
-            <br />
-            <textarea name="text_comment" cols="57" rows="10"></textarea>
-          </p>
-          <p>
-            <input type="hidden" name="page_id" value="150" />
-            <input type="submit" value="Отправить" />
-          </p>
-        </form>
-      </div>
-    </div>
-    <footer>
-      <span class="right">
+        <footer>
+            <span class="right">
         Все права защищены &copy; 2019
       </span>
-      <span class="inright">
+            <span class="inright">
         <a href="https://vk.com/public188361120">
           <img width="50" src="/photo/inst.png" alt="Группа Inst" title="Группа Inst" />
           <a href="https://vk.com/public188361120">
@@ -114,8 +108,8 @@
           </a>
           <br />Соц.кнопки
       </span>
-    </footer>
-  </div>
+        </footer>
+    </div>
 </body>
 
 </html>

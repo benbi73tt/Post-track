@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    overflow-x: hidden;
+}
+
+.container {
+    background: url();
+    background-size: 100%;
+    max-width: 1350px;
+    min-width: 1350px;
+    margin: 0px auto;
+    text-align: left;
+    border: 0px solid silver;
+}
+
+a {
+    text-decoration: none;
+    transition: all.3s ease;
+    -moz-transition: all.3s ease;
+    -webkit-transition: all.3s ease;
+    color: rgb(53, 46, 46);
+}
+
+a:hover {
+    text-decoration: none;
+    transition: all.3s ease;
+    -moz-transition: all.3s ease;
+    -webkit-transition: all.3s ease;
+}
+
+.clear {
+    clear: both;
+}
+
+.Glavn {
+    text-align: center;
+    width: 20%;
+    height: 22px;
+    margin-left: 40%;
+    color: black;
+    font-size: 1.1em;
+    transition: all.6s ease;
+    -moz-transition: all.6s ease;
+    -webkit-transition: all.6s ease;
+}
+
+.Glavn:hover {
+    background: #3ce2ff;
+    border-radius: 50px;
+    transition: all.6s ease;
+    -moz-transition: all.6s ease;
+    -webkit-transition: all.6s ease;
+}
+
+header {
+    background: #74fbf0ad;
+    border-bottom: 5px silver solid;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    background-size: 100%;
+    height: 220px;
+}
+
+.YouLocate {
+    height: 30px;
+    width: 10%;
+    border: 2px solid rgb(65, 58, 58);
+    border-radius: 4px;
+    float: right;
+    margin: 1%;
+    margin-top: -65px;
+    text-align: left;
+    padding: 10px;
+    font-size: 1.4em;
+    margin-right: 200px;
+}
+
+#tow1 {
+    margin-top: 0px;
+    float: right;
+}
+
+.YouLocate img {
+    width: 19%;
+    float: left;
+}
+
+.logo {
+    background: url(/photo/Logo.png) no-repeat;
+    background-size: 100%;
+    width: 10%;
+    height: 180px;
+    margin-top: 10px;
+    margin-left: 80px;
+    position: relative;
+    float: left;
+    z-index: 1;
+    text-decoration: none;
+    transition: all.4s ease;
+    -moz-transition: all.4s ease;
+    -webkit-transition: all.4s ease;
+}
+
+.logo:hover {
+    background: url(/photo/Logo-Pointed.png) no-repeat;
+    display: block;
+    background-size: 100%;
+    width: 10%;
+    height: 180px;
+    margin-top: -5px;
+    margin-left: 80px;
+    position: relative;
+    float: left;
+    z-index: 1;
+    text-decoration: none;
+    transition: all.4s ease;
+    -moz-transition: all.4s ease;
+    -webkit-transition: all.4s ease;
+}
+
+#menuhrefs {
+    width: 70%;
+    margin-top: 3.2%;
+    font-size: 1.4em;
+    padding-top: 50px;
+    margin-right: 0%;
+    margin-left: -15%;
+    height: 50px;
+    z-index: 2;
+}
+
+#menuhrefs a {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 2px rgba(0, 0, 0, 0.2), inset 0 1px 2px rgba(255, 255, 255, 0.7);
+    background: #74fbef;
+    width: 100%;
+    height: 100%;
+    margin: 3.4%;
+    padding: 14px;
+    border: 1px solid #74fbef;
+    border-radius: 30px;
+    color: rgba(0, 0, 0, 0.664);
+}
+
+#menuhrefs a:hover {
+    box-shadow: inset 0 0 12px white;
+    background: #74fbef;
+    width: 100%;
+    height: 100%;
+    margin: 3.4%;
+    padding: 14px;
+    border: 1px solid #74fbef;
+    border-radius: 30px;
+    color: rgba(0, 0, 0, 0.664);
+}
+
+#menuhrefs a:active {
+    background: #d0d3d6;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
+    box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.2), inset 0 2px 5px rgba(0, 0, 0, 0.2), 0 1px rgba(255, 255, 255, 0.2);
+}
