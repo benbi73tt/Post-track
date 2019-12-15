@@ -8,6 +8,7 @@
 
 html {
     background: #ececec27;
+    font-family: Avenir, sans-serif;
 }
 
 .container {
@@ -51,8 +52,8 @@ header {
 .YouLocate {
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 2px rgba(0, 0, 0, 0.2), inset 0 1px 2px rgba(255, 255, 255, 0.7);
     background: #2368a4;
-    height: 30px;
-    width: 10%;
+    height: 28px;
+    width: 11%;
     float: right;
     margin: 1%;
     margin-top: -65px;
@@ -131,15 +132,15 @@ header {
 }
 
 #menuhrefs a {
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 2px rgba(0, 0, 0, 0.2), inset 0 1px 2px rgba(255, 255, 255, 0.7);
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 2px rgba(0, 0, 0, 0.2), inset 0 1px 2px#61b4fc;
     background: #2368a4;
     width: 100%;
     height: 100%;
     margin: 3.4%;
     padding: 14px;
-    border: 1px solid #74fbef;
+    border: 1px solid #61b4fc;
     border-radius: 30px;
-    color: rgba(0, 0, 0, 0.664);
+    color: rgba(255, 255, 255, 0.8);
 }
 
 #menuhrefs a:hover {
@@ -151,7 +152,7 @@ header {
     padding: 14px;
     border: 1px solid #74fbef;
     border-radius: 30px;
-    color: rgba(0, 0, 0, 0.664);
+    color: rgba(255, 255, 255, 1);
 }
 
 #menuhrefs a:active {
@@ -190,7 +191,7 @@ header {
 
 .reg {
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 2px rgba(0, 0, 0, 0.2), inset 0 1px 2px rgba(255, 255, 255, 0.7);
-    background: #4df0ca;
+    background: #2368a4;
     position: relative;
     float: right;
     width: 23%;
@@ -198,6 +199,7 @@ header {
     margin-right: 5%;
     height: 420px;
     border-radius: 50px;
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .reg span h1 {
@@ -245,13 +247,15 @@ input[type="password"].field:focus {
 }
 
 button {
-    padding: 10px 0;
+    border: 1px solid #61b4fc;
+    padding: 10px;
     border-width: 0;
     display: block;
     width: 80%;
     margin: 25px auto 0;
-    background: #374441;
-    color: white;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 2px rgba(0, 0, 0, 0.2), inset 0 1px 2px#61b4fc;
+    background: #2368a4;
+    color: rgba(255, 255, 255, 0.8);
     font-size: 14px;
     outline: none;
     text-transform: uppercase;
@@ -262,19 +266,21 @@ button {
 }
 
 button:hover {
-    background: #4df0ca;
+    box-shadow: inset 0 0 12px white;
+    background: #61b4fc;
+    border: 1px solid #74fbef;
+    color: rgba(255, 255, 255, 1);
     transition: all.6s ease;
     -moz-transition: all.6s ease;
     -webkit-transition: all.6s ease;
 }
 
 div#shift {
-    height: 40px;
     position: relative;
     margin-left: 10%;
     margin-right: 30px;
-    padding-top: 10px;
-    width: 40%;
+    padding-top: 5px;
+    width: 80%;
     margin-top: -30px;
     padding-bottom: 10px;
     padding-left: 0px;
@@ -282,11 +288,11 @@ div#shift {
 }
 
 #noakk {
-    font-family: "Times New Roman", Times, serif;
     text-transform: uppercase;
-    color: white;
-    background: #374441;
-    font-size: 1em;
+    color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #61b4fc;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 2px rgba(0, 0, 0, 0.2), inset 0 1px 2px#61b4fc;
+    background: #2368a4;
     display: block;
     width: 100%;
     padding-top: 10px;
@@ -299,20 +305,21 @@ div#shift {
 }
 
 #noakk:hover {
-    font-size: 1em;
-    color: white;
-    background: #4df0ca;
+    box-shadow: inset 0 0 12px white;
+    background: #61b4fc;
+    border: 1px solid #74fbef;
+    color: rgba(255, 255, 255, 1);
     transition: all.6s ease;
     -moz-transition: all.6s ease;
     -webkit-transition: all.6s ease;
 }
 
 div#shift2 {
+    display: block;
     position: relative;
-    float: right;
-    margin-top: -55px;
-    padding-right: -5%;
-    margin-left: 40px;
+    margin-top: -5px;
+    float: left;
+    margin-left: 35%;
 }
 
 div img {
@@ -342,14 +349,16 @@ textarea {
 }
 
 input[type="submit"] {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 2px rgba(0, 0, 0, 0.2), inset 0 1px 2px#61b4fc;
     padding: 10px;
     border-width: 0;
     display: block;
     width: 20%;
     margin-top: 20px;
     margin-left: 350px;
-    background: #374441;
-    color: white;
+    background: #2368a4;
+    border: 1px solid #61b4fc;
+    color: rgba(255, 255, 255, 0.8);
     font-size: 14px;
     outline: none;
     text-transform: uppercase;
@@ -360,7 +369,9 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background: #4df0ca;
+    color: rgba(255, 255, 255, 1);
+    box-shadow: inset 0 0 12px white;
+    background: #61b4fc;
     transition: all.6s ease;
     -moz-transition: all.6s ease;
     -webkit-transition: all.6s ease;
