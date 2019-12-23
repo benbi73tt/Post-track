@@ -16,30 +16,32 @@
 
 <body>
     <div class="container">
-        <div class="Glavn">
-            <a id="Glavn" href="Glav.html">Вернуться на главную</a>
-        </div>
-        <div class="reg">
-            <div class="form-wrap">
+        <div id="page-wrap">
+            <header>
+                <div class="Glavn">
+                    <a id="Glavn" href="Glav.html">Вернуться на главную</a>
+                </div>
+                <a href="Tracking.html">
+                    <div class="logo"></div>
+                </a>
                 <div class="profile">
-                    <img src="/photo/Logo.png">
                     <h1>Регистрация</h1>
                 </div>
                 <form method="post" action="form.php">
                     <div>
-                        <label for="name">Имя</label>
+                        <label for="name">Имя   </label>
                         <input type="text" name="name" required>
                     </div>
                     <div class="radio">
                         <span>Пол</span><br>
                         <label>
-                            <input type="radio" name="sex" value="мужской">мужской
-                            <div class="radio-control male"></div>
-                        </label>
+                                <input type="radio" name="sex" value="мужской">мужской
+                                <div class="radio-control male"></div>
+                            </label>
                         <label>
-                            <input type="radio" name="sex" value="женский">женский
-                            <div class="radio-control female"></div>
-                        </label>
+                                <input type="radio" name="sex" value="женский">женский
+                                <div class="radio-control female"></div>
+                            </label>
                     </div>
                     <div>
                         <label for="email">E-mail</label>
@@ -48,32 +50,45 @@
                     <div>
                         <label for="country">Страна</label>
                         <select name="country">
-                            <option>Выберите страну проживания</option>
-                            <option value="Россия">Россия</option>
-                            <option value="Украина">Украина</option>
-                            <option value="Беларусь">Беларусь</option>
-                        </select>
+                                <option>Выберите страну проживания</option>
+                                <option value="Россия">Россия</option>
+                                <option value="Украина">Украина</option>
+                                <option value="Беларусь">Беларусь</option>
+                            </select>
                         <div class="select-arrow"></div>
                     </div><br>
                     <div class="pnl">
                         <label for="city">Город</label>
-                        <select name="city">
-                            <option>Выберите город проживания</option>
-                            <option value="Екатеренбург">Екатеренбург</option>
-                            <option value="Казань">Казань</option>
-                            <option value="Москва">Москва</option>
-                            <option value="Нижний Новгород">Нижний Новгород</option>
-                            <option value="Самара">Самара</option>
-                            <option value="Сочи">Сочи</option>
-                            <option value="Ульяновск">Ульяновск</option>
-                            <option value="Самара">Самара</option>
-                            <option value="Ярославль">Ярославь</option>
-                        </select>
+                        <select id="cit" name="city">
+                                <option>Выберите город проживания</option>
+                                <option value="Екатеренбург">Екатеренбург</option>
+                                <option value="Казань">Казань</option>
+                                <option value="Москва">Москва</option>
+                                <option value="Нижний Новгород">Нижний Новгород</option>
+                                <option value="Самара">Самара</option>
+                                <option value="Сочи">Сочи</option>
+                                <option value="Ульяновск">Ульяновск</option>
+                                <option value="Самара">Самара</option>
+                                <option value="Ярославль">Ярославь</option>
+                            </select>
                         <div class="select-arrow"></div>
                     </div><br>
                     <button type="submit">Отправить</button>
                 </form>
-            </div>
         </div>
+        </header>
+        <footer>
+            <span class="right">
+Все права защищены &copy; 2019
+</span>
+            <span class="inright">
+<a href="https://vk.com/public188361120">
+  <img src="/photo/inst.png" alt="Группа Inst" title="Группа Inst" />
+<a href="https://vk.com/public188361120">
+    <img src="/photo/VK.png" alt="Группа Вконтакте" title="Группа Вконтакте" />
+  </a>
+  <br />Соц.кнопки
+</span>
+        </footer>
     </div>
 </body>
