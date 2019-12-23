@@ -7,12 +7,11 @@
     }
     
     html {
-        background: #ececec27;
         font-family: Avenir, sans-serif;
     }
     
     .container {
-        background: url();
+        background: url(/photo/i3zsRwkU6nY.jpg);
         background-size: 100%;
         max-width: 1350px;
         min-width: 1350px;
@@ -230,6 +229,7 @@
         height: 25px;
         float: left;
         border-radius: 3px;
+        margin-bottom: 20px;
         border: 2px double silver;
         padding: 5px;
         margin-left: 7%;
