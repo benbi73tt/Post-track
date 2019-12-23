@@ -66,35 +66,50 @@
 
 <body>
     <div class="container">
-        <header>
-            <div class="Glavn">
-                <a id="Glavn" href="Glav.html">Вернуться на главную</a>
-            </div>
-            <a href="Tracking.html">
-                <div class="logo"></div>
-            </a>
-            <div id="menuhrefs">
-                <a href="Personalcab.html">Личный кабинет</a>
-                <a href="Departamens.html">Отделения</a>
-            </div>
-            <div class="YouLocate">
-                <img src="photo/locate32.png" /><span id="tow1"></span>
-            </div>
-        </header>
-        <div class="cab">
-            <form>
-                <input id="panel" onclick="showContent('Mytrack.html')" type="button" value="Персональные данные" />
-                <input id="panel" onclick="showContent('Comment.html')" type="button" value="Обратная связь" />
-                <input id="panel" onclick="showContent('Message.html')" type="button" value="Мои сообщения" />
-            </form>
-            <hr />
-            <div id="contentBody"></div>
+        <div id="page-wrap">
+            <header>
+                <div class="Glavn">
+                    <a id="Glavn" href="Glav.html">Вернуться на главную</a>
+                </div>
+                <a href="Tracking.html">
+                    <div class="logo"></div>
+                </a>
+                <div id="menuhrefs">
+                    <a href="Personalcab.html">Личный кабинет</a>
+                    <a href="Departamens.html">Отделения</a>
+                </div>
+                <div class="YouLocate">
+                    <img src="photo/locate32.png" /><span id="tow1"></span>
+                </div>
+            </header>
+            <div class="cab">
+                <form>
+                    <!-- <input id="panel" onclick="showContent('Mytrack.html')" type="button" value="Персональные данные" /> -->
+                    <input id="panel" onclick="showContent('Comment.html')" type="button" value="Обратная связь" />
+                    <input id="panel" onclick="showContent('Message.html')" type="button" value="Мои сообщения" />
+                </form>
+                <hr />
+                <div id="contentBody"></div>
 
-            <div id="loading" style="display: none">
-                Идет загрузка...
-            </div>
+                <div id="loading" style="display: none">
+                    Идет загрузка...
+                </div>
 
+            </div>
         </div>
+        <footer>
+            <span class="right">
+    Все права защищены &copy; 2019
+  </span>
+            <span class="inright">
+    <a href="https://vk.com/public188361120">
+      <img src="/photo/inst.png" alt="Группа Inst" title="Группа Inst" />
+    <a href="https://vk.com/public188361120">
+        <img src="/photo/VK.png" alt="Группа Вконтакте" title="Группа Вконтакте" />
+      </a>
+      <br />Соц.кнопки
+  </span>
+        </footer>
     </div>
 </body>
 

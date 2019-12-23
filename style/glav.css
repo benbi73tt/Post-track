@@ -340,6 +340,7 @@ div img {
 }
 
 label {
+    color: white;
     margin: 10px;
 }
 
@@ -417,7 +418,7 @@ footer img {
 
 footer,
 #page-wrap::after {
-    height: 70px;
+    height: 60px;
 }
 
 #page-wrap {
